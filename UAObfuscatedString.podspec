@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UAObfuscatedString"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
   s.summary      = "A simple String Swift extension to hide sensitive strings from appearing in your binary"
   s.description  = <<-DESC
                    UAObfuscatedString is a simple and lightweight Swift String extension that allows you to prevent sensitive strings from appearing in the binary.
