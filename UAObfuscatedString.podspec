@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
   s.source_files = "UAObfuscatedString.swift"
   s.ios.deployment_target = "8.0"
+   s.osx.deployment_target = "10.9"
   s.requires_arc = true
 end
